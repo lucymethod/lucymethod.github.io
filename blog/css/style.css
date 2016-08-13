@@ -1,0 +1,34 @@
+@font-face {
+  font-family: yoga;
+  src: url('https://narkeeta.github.io/font/BeginningYoga.ttf');
+}
+@font-face {
+  font-family: marker;
+  src: url('https://narkeeta.github.io/font/PermanentMarker.ttf');
+}
+@font-face {
+  font-family: logo;
+  src: url('https://narkeeta.github.io/font/SansationBold.ttf');
+}
+
+.error {
+  text-align:center;
+  height:auto;
+  width:auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#home {
+  font-family:'Montserrat', sans-serif;
+  line-height:50px;
+  color:black;
+  text-decoration:none;
+}
+
+#home:hover {
+   cursor:pointer;
+   font-family:marker;
+   text-decoration: none;
+}

@@ -54,7 +54,7 @@ li:hover {
 
 #BlogMSG {
   font-family:Permanent Marker;
-  font-size:20px; 
+  font-size:20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,9 +67,3 @@ li:hover {
     margin-left:20vw;
   }
 }
-
-
-
-
-
-
