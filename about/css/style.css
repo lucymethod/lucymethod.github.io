@@ -1,22 +1,20 @@
 @font-face {
   font-family: yoga;
-  src: url('https://narkeeta.github.io/font/BeginningYoga.ttf');
+  src: url('https://lucymethod.github.io/font/BeginningYoga.ttf');
 }
 @font-face {
   font-family: marker;
-  src: url('https://narkeeta.github.io/font/PermanentMarker.ttf');
+  src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
 }
 @font-face {
   font-family: logo;
-  src: url('https://narkeeta.github.io/font/SansationBold.ttf');
+  src: url('https://lucymethod.github.io/font/SansationBold.ttf');
 }
 body {
   color:white;
   background-color: white;
-  background: url("https://narkeeta.github.io/images/opacity45.jpg") no-repeat fixed top;
+  background: url("https://lucymethod.github.io/images/opacity45.jpg") no-repeat fixed top;
   background-size: cover;
-}
-div {
 }
 
 #home {
@@ -25,7 +23,6 @@ div {
   color:black;
   text-decoration:none;
 }
-
 #home:hover {
    cursor:pointer;
    font-family:marker;
@@ -39,10 +36,7 @@ a, a:hover {
 #LM {
   margin-left:22px;
   width:auto;
-
 }
-
-
 #LMTitle {
   color:rgb(129,183,109);
   width:60vw;
@@ -56,7 +50,6 @@ a, a:hover {
   color:black;
   margin-top:30px;
 }
-
 p {
   font-size:14px;
 }
