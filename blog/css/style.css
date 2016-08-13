@@ -24,7 +24,7 @@
 body {
   background-color: white;
   background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
-  background-size: cover;
+  background-size: contain;
 }
 
 
