@@ -1,2 +1,1 @@
-# lucymethod.github.io
-LucyMethod Site
+# narkeeta.github.io
