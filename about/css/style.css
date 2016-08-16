@@ -38,13 +38,13 @@ a, a:hover {
 }
 #LMTitle {
   color:rgb(129,183,109);
-  width:75vw;
+  width:auto;
   font-family:logo;
   font-size:40px;
 }
 
 #about {
-  width:75vw;
+  width:auto;
   font-family:Montserrat;
   color:black;
   margin-top:30px;
