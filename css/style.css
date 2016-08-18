@@ -5,12 +5,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#menu {
-  width:100%;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 40px;
-}
 #home {
   color:white;
   width:100%;
@@ -19,17 +13,22 @@ body {
   background-size: contain;
 }
 
+#menu {
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 40px;
+}
+
 .page {
+  display:inline;
   background-color:rgba(255,255,255,.4);
-  width:auto;
+  width:140px;
   color:black;
 }
 a, a:hover {
   text-decoration:none;
   color:black;
-}
-ul, li {
-  display:inline-block;
 }
 li {
   margin-left:-30px;
