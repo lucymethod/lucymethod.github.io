@@ -1,6 +1,6 @@
 @font-face {
-  font-family: yoga;
-  src: url('https://lucymethod.github.io/font/BeginningYoga.ttf');
+  font-family: abel;
+  src: url('https://lucymethod.github.io/font/Abel.ttf');
 }
 @font-face {
   font-family: marker;
@@ -20,7 +20,7 @@ body {
 }
 
 #home {
-  font-family:'Cabin', sans-serif;
+  font-family:able;
   line-height:50px;
   color:black;
   text-decoration:none;
@@ -41,13 +41,13 @@ a, a:hover {
 #LMTitle {
   color:rgb(129,183,109);
   width:auto;
-  font-family:Cabin;
+  font-family:logo;
   font-size:40px;
 }
 
 #about {
   width:auto;
-  font-family:Montserrat;
+  font-family:able;
   color:black;
   margin-top:30px;
   margin-left:20px;
