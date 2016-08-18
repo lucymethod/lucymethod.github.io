@@ -42,14 +42,11 @@ li:hover {
 
 
 .button {
-    background: #DCE0E0;
-    position: relative;
-    display: block;
+    background: rgb(129,183,109);
     float: left;
     height: 40px;
-    margin: 0 7px;
     overflow: hidden;
-    width: 150px;
+    width: 140px;
     border-radius: 3px;
     -o-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -126,64 +123,13 @@ li:hover {
     z-index: 1;
 }
 
-.twitter iframe {
-    width: 90px !important;
-    right: 5px;
-    top: 10px;
-    z-index: 1;
-    display: block;
-    position: absolute;
-}
-
-.google #___plusone_0 {
-    width: 70px !important;
-    top: 10px;
-    right: 15px;
-    position: absolute;
-    display: block;
-    z-index: 1;
-}
-
-.linkedin .IN-widget {
-    top: 10px;
-    right: 22px;
-    position: absolute;
-    display: block;
-    z-index: 1;
-}
-
 .facebook:hover .slide {
     left: 150px;
-}
-
-.twitter:hover .slide {
-    top: -40px;
-}
-
-.google:hover .slide {
-    bottom: -40px;
-}
-
-.linkedin:hover .slide {
-    left: -150px;
 }
 
 .facebook .icon, .facebook .slide {
     background: #305c99;
 }
-
-.twitter .icon, .twitter .slide {
-    background: #00cdff;
-}
-
-.google .icon, .google .slide {
-    background: #d24228;
-}
-
-.linkedin .icon, .linkedin .slide {
-    background: #007bb6;
-}
-
 
 
 
