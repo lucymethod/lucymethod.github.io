@@ -15,7 +15,7 @@
 body {
   color:white;
   background-color: white;
-  background: url("https://lucymethod.github.io/images/LucyMethBack.png") no-repeat fixed top;
+  background: url("https://lucymethod.github.io/images/LucyMethBack.png") no-repeat fixed top right;
   background-size: contain;
 }
 
