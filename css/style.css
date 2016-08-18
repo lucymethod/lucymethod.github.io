@@ -26,6 +26,9 @@ a, a:hover {
   text-decoration:none;
   color:black;
 }
+ul, li {
+  display:inline;
+}
 li {
   margin-left:-30px;
   font-family: 'Montserrat', sans-serif;
