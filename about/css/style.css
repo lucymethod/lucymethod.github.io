@@ -1,6 +1,6 @@
 @font-face {
-  font-family: abel;
-  src: url('https://lucymethod.github.io/font/Abel.ttf');
+  font-family: sans;
+  src: url('https://lucymethod.github.io/font/OpenSans.ttf');
 }
 @font-face {
   font-family: marker;
@@ -47,7 +47,7 @@ a, a:hover {
 
 #about {
   width:auto;
-  font-family:abel;
+  font-family:sans;
   color:black;
   margin-top:20px;
   margin-left:20px;
