@@ -47,45 +47,30 @@ li:hover {
   background-size: cover;
 }
 
-#contact {
-  background-color:rgba(255,255,255,.4);
-  width:60vw;
-  height:60vw;
-  color:black;
-  text-align:center;
-  
-  margin-top:10vh;
-  margin-right:10vw;
-  margin-left;10vw;
-  
-}
-
-#ContactTitle {
+#LFMtitle {
   font-family:Permanent Marker;
   font-size:40px;
+  
 }
 
-#CTLink {
-  font-family:Permanent Marker;
-  font-size:20px; 
+#about {
+  color:white;
+  width:60vw;
+  margin-right:30px;
+  margin-top:30px;
 }
 
 @media screen and (max-width: 768px) {
+  #about {
+    width:90vw;
+  }
   .page {
     width:80vw;
     text-align:center;
-  }
-  #contact {
-    width:80vw;
   }
   #logo {
     width:40vw;
     margin-left:20vw;
   }
 }
-
-
-
-
-
 
