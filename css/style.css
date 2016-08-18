@@ -6,6 +6,9 @@ body {
 }
 
 #menu {
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 40px;
 }
 #home {
@@ -19,9 +22,6 @@ body {
 .page {
   background-color:rgba(255,255,255,.4);
   width:auto;
-  margin-right: 0;
-  margin-left: 0;
-  min-width:140px;
   color:black;
 }
 a, a:hover {
