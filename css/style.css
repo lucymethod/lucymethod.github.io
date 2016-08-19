@@ -1,5 +1,5 @@
 body {
-	padding-top:20px;
+    padding-top: 20px;
     background-color: white;
     color: white;
     background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
@@ -9,12 +9,12 @@ body {
 
 #menu {
     margin: auto;
-    width: 750px;
+    width: 768px;
 }
 
 .page {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     display: inline-block;
     width: 150px;
 }
@@ -23,11 +23,19 @@ a, a:hover {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     cursor: pointer;
     font-family: Permanent Marker;
 }
 
 @media screen and (max-width: 768px) {
-
+	#menu {
+    margin: auto;
+    width: auto;
+}
+    .page {
+		margin:auto;
+        display: block;
+    }
 }
