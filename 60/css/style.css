@@ -1,63 +1,60 @@
 @font-face {
-  font-family: sans;
-  src: url('https://lucymethod.github.io/font/OpenSans.ttf');
+    font-family: sans;
+    src: url('https://lucymethod.github.io/font/OpenSans.ttf');
 }
 @font-face {
-  font-family: marker;
-  src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
+    font-family: marker;
+    src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
 }
 @font-face {
-  font-family: logo;
-  src: url('https://lucymethod.github.io/font/SansationBold.ttf');
+    font-family: logo;
+    src: url('https://lucymethod.github.io/font/SansationBold.ttf');
 }
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
-
 body {
-  color:white;
-  background-color: white;
-  background: url("https://lucymethod.github.io/images/60Back.png") no-repeat fixed top;
-  background-size: contain;
+    color: white;
+    background-color: white;
+    background: url("https://lucymethod.github.io/images/60Back.png") no-repeat fixed top;
+    background-size: contain;
 }
-
 #home {
-  margin: 10px 0 10px 10px;
-  font-family:logo;
-  font-size: 16px;
-  color:black;
+    margin: 10px 0 10px 10px;
+    font-family: logo;
+    font-size: 16px;
+    color: black;
 }
 #home:hover {
-   cursor:pointer;
-   font-family:marker;
+    cursor: pointer;
+    font-family: marker;
 }
 a, a:hover {
-  text-decoration:none;
-  color:black;
+    text-decoration: none;
+    color: black;
 }
-
 #title {
-  text-align:center;
-  color:rgb(129,183,109);
-  width:auto;
-  font-family:logo;
-  font-size:40px;
+    text-align: center;
+    color: rgb(129, 183, 109);
+    width: auto;
+    font-family: logo;
+    font-size: 40px;
 }
-
 #main-text {
-  margin:auto;
-  width:auto;
-  font-family:sans;
-  color:black;
-  text-align:center;
+    margin: auto;
+    width: auto;
+    font-family: sans;
+    color: black;
+    text-align: center;
 }
 p {
-  font-size:13px;
+    font-size: 13px;
 }
-
-
 @media screen and (max-width: 768px) {
-  #home {
-    margin:auto;
-    margin-top: 10px;
-    width:auto;
-  }
+    #home {
+        margin: auto;
+        text-align: center;
+    }
+    #about {
+        width: 90vw;
+        margin: auto;
+    }
 }
