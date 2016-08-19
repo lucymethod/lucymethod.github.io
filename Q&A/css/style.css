@@ -1,41 +1,60 @@
 @font-face {
-  font-family: yoga;
-  src: url('https://narkeeta.github.io/font/BeginningYoga.ttf');
+    font-family: sans;
+    src: url('https://lucymethod.github.io/font/OpenSans.ttf');
 }
 @font-face {
-  font-family: marker;
-  src: url('https://narkeeta.github.io/font/PermanentMarker.ttf');
+    font-family: marker;
+    src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
 }
 @font-face {
-  font-family: logo;
-  src: url('https://narkeeta.github.io/font/SansationBold.ttf');
+    font-family: logo;
+    src: url('https://lucymethod.github.io/font/SansationBold.ttf');
 }
-
-.error {
-  font-family:'Montserrat', sans-serif;
-  text-align:center;
-  height:auto;
-  width:auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
 body {
-  background-color: white;
-  background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
-  background-size: contain;
+    color: white;
+    background-color: white;
+    background: url("https://lucymethod.github.io/images/60Back.png") no-repeat fixed top;
+    background-size: contain;
 }
-
-
 #home {
-  line-height:50px;
-  color:black;
-  text-decoration:none;
+    margin: 10px 0 10px 10px;
+    font-family: logo;
+    font-size: 16px;
+    color: black;
 }
-
 #home:hover {
-   cursor:pointer;
-   font-family:marker;
-   text-decoration: none;
+    cursor: pointer;
+    font-family: marker;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+#title {
+    text-align: center;
+    color: rgb(129, 183, 109);
+    width: auto;
+    font-family: logo;
+    font-size: 40px;
+}
+#main-text {
+    margin: auto;
+    width: auto;
+    font-family: sans;
+    color: black;
+    text-align: center;
+}
+p {
+    font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+    #home {
+        margin: auto;
+        text-align: center;
+    }
+    #about {
+        width: 90vw;
+        margin: auto;
+    }
 }
