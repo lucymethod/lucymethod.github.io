@@ -1,51 +1,33 @@
 body {
-  background-color:white;
-  color:white;
-	background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
-  background-size: contain;
-  font-family: 'Open Sans', sans-serif;
+	padding-top:20px;
+    background-color: white;
+    color: white;
+    background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #menu {
-	margin:auto;
-  width:50%;
-  padding-top: 40px;
+    margin: auto;
+    width: 750px;
 }
 
 .page {
-	text-align:
-
-	display:inline-block;
-  background-color:rgba(255,255,255,.4);
-  width:140px;
-  color:black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 150px;
 }
+
 a, a:hover {
-  text-decoration:none;
-  color:black;
+    text-decoration: none;
+    color: black;
 }
-li {
-  margin-left:-30px;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom:3px;
+a:hover {
+    cursor: pointer;
+    font-family: Permanent Marker;
 }
-li:hover {
-  cursor:pointer;
-  font-family:'Permanent Marker';
-}
-
-
 
 @media screen and (max-width: 768px) {
-  #about {
-    width:90vw;
-  }
-  .page {
-    width:80vw;
-    text-align:center;
-  }
-  #logo {
-    width:40vw;
-    margin-left:20vw;
-  }
+
 }
