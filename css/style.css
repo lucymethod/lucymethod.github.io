@@ -6,36 +6,31 @@ body {
     background-size: contain;
     font-family: 'Open Sans', sans-serif;
 }
-
 #menu {
     margin: auto;
     width: 768px;
 }
-
 .page {
     text-align: center;
     font-family: 'Montserrat';
     display: inline-block;
     width: 150px;
 }
-
 a, a:hover {
     text-decoration: none;
     color: black;
 }
-
 a:hover {
     cursor: pointer;
     font-family: Permanent Marker;
 }
-
 @media screen and (max-width: 768px) {
-	#menu {
-    margin: auto;
-    width: auto;
-}
+    #menu {
+        margin: auto;
+        width: auto;
+    }
     .page {
-		margin:auto;
+        margin: auto;
         display: block;
     }
 }
