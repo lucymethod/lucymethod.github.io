@@ -1,12 +1,34 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
+@font-face {
+    font-family: sans;
+    src: url('https://lucymethod.github.io/font/OpenSans.ttf');
+}
+@font-face {
+    font-family: marker;
+    src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
+}
 body {
   background: url("https://lucymethod.github.io/images/QABack.png") no-repeat fixed top;
   background-size: cover;
-  font-family: Raleway;
+  font-family: sans;
   padding-bottom: 90px;
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
+
+#home {
+    margin: 10px 0 10px 10px;
+    font-family: sans;
+    font-size: 16px;
+    color: black;
+}
+#home:hover {
+    cursor: pointer;
+    font-family: marker;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 h3 {
   font-size: 16px;
   -moz-transition: all 0.35s ease;
