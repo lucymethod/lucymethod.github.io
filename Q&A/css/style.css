@@ -23,6 +23,7 @@ body {
     font-family: marker;
 }
 a, a:hover {
+  line-height: 25px;
     text-decoration: none;
     color: black;
 }
