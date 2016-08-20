@@ -1,63 +1,95 @@
-@font-face {
-    font-family: sans;
-    src: url('https://lucymethod.github.io/font/OpenSans.ttf');
-}
-@font-face {
-    font-family: marker;
-    src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
-}
-@font-face {
-    font-family: logo;
-    src: url('https://lucymethod.github.io/font/SansationBold.ttf');
-}
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
+@import url('http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
 body {
-    color: white;
-    background-color: white;
-    background: url("https://lucymethod.github.io/images/QABack.png") no-repeat fixed top;
-    background-size: contain;
+  background: url("https://lucymethod.github.io/images/QABack.png") no-repeat fixed top;
+  background-size: cover;
+  font-family: Raleway;
+  padding-bottom: 90px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
 }
-#home {
-    margin: 10px 0 10px 10px;
-    font-family: logo;
-    font-size: 16px;
-    color: black;
-}
-#home:hover {
-    cursor: pointer;
-    font-family: marker;
-}
-a, a:hover {
-    text-decoration: none;
-    color: black;
-}
-#title {
-    text-align: center;
-    color: rgb(129, 183, 109);
-    width: auto;
-    font-family: logo;
-    font-size: 40px;
-}
-#main-text {
-    margin: auto;
-    width: auto;
-    font-family: sans;
-    color: black;
-    text-align: center;
-}
-p {
-    font-size: 13px;
-}
-b {
+h3 {
   font-size: 16px;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.06);
+  margin: 0;
+  padding: 10px 5px 10px 10px;
+  font-weight: 500;
+  transition: all 0.35s ease;
 }
-@media screen and (max-width: 768px) {
-    #home {
-        margin: auto;
-        text-align: center;
-    }
-    #about {
-        width: 90vw;
-        margin: auto;
-    }
+h3:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+  color: #448432;
+  cursor: pointer;
+}
+h3::before {
+  content: "\276f";
+  float: left;
+  line-height: 20px;
+  margin: 0 15px 0 5px;
+  opacity: 0.5;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+h3.X {
+  cursor: pointer;
+}
+h3.X::after {
+  content: "\2715";
+  float: right;
+  line-height: 20px;
+}
+h3.X::before {
+  -moz-transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important;
+  -o-transform: rotate(-90deg) !important;
+  -webkit-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+}
+div {
+  margin: 0;
+}
+div:first-child {
+  border: none;
+  margin-top: 45px;
+}
+h3:hover::before {
+  opacity: 0.55;
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+div.answer {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  line-height: 1.8em;
+}
+div.answer p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 2px 50px;
+}
+#Q {
+  width: auto;
+  padding: 0 5%;
+}
+#closer {
+  background-color: #81c86d;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  padding: 1px 10px;
+  position: fixed;
+  text-decoration: none;
 }
