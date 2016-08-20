@@ -32,7 +32,7 @@ $(document).ready(function() {
       var abiertas = $('.X').length
       console.log(abiertas);
     }
-  }); //Close Function Click	            
+  }); //Close Function Click
 
 }); //Close Function Ready
 
