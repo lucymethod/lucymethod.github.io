@@ -17,6 +17,7 @@ body {
     width: 150px;
 }
 a, a:hover {
+  line-height: 25px;
     text-decoration: none;
     color: black;
 }
