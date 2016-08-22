@@ -10,7 +10,7 @@
 
 body {
     background: url("https://lucymethod.github.io/images/QABack.png") no-repeat fixed top;
-    background-size: cover;
+    background-size: contain;
     font-family: sans;
     padding-bottom: 90px;
     -webkit-font-smoothing: antialiased;
@@ -19,7 +19,7 @@ body {
 #home {
   position:absolute;
   top:0;
-  left:0;
+  left:5px;
     list-style: none;
     font-family: sans;
 }
