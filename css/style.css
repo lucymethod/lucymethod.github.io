@@ -4,32 +4,55 @@ body {
     color: white;
     background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
     background-size: contain;
-    font-family: 'Open Sans', sans-serif;
 }
+
 #menu {
-    margin: auto;
     width: 768px;
 }
+
 .page {
     text-align: center;
     font-family: 'Montserrat';
     display: inline-block;
     width: 150px;
 }
+
 a, a:hover {
-  line-height: 25px;
+	position: absolute;
+	top:5px;
+    line-height: 25px;
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     cursor: pointer;
     font-family: Permanent Marker;
 }
+
+.social {
+	width: 20%;
+	margin:auto;
+}
+
+.facebook:hover, .instagram:hover {
+	position: relative;
+    background-color: rgba(129, 183, 109, 0.36);
+}
+.facebook, .instagram {
+	position: relative;
+	display: inline-flex;
+    border: 1px solid rgba(0, 0, 0, .1);
+    text-align: center;
+	font-family: "Montserrat";
+
+
 @media screen and (max-width: 768px) {
     #menu {
         margin: auto;
         width: auto;
     }
+
     .page {
         margin: auto;
         display: block;
