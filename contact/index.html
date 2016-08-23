@@ -1,140 +1,145 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
     <title>Simple, flat contact form</title>
-    
-    
-    
-    
-        <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @font-face {
-  font-family: sans;
-  src: url('https://lucymethod.github.io/font/OpenSans.ttf');
-}
 
-@font-face {
-  font-family: marker;
-  src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
-}
 
-@font-face {
-  font-family: logo;
-  src: url('https://lucymethod.github.io/font/SansationBold.ttf');
-}
 
-body {
-  background: white;
-}
 
-form {
-  max-width: 420px;
-  margin:auto;
-}
+    <style>
+        /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
 
-h1 {
-  padding-top:40px;
-  font-family:sans;
-  color:rgb(129, 183, 109);
-    text-align:center;
-  margin:auto;
-  width:auto;
-}
+        @font-face {
+            font-family: sans;
+            src: url('https://lucymethod.github.io/font/OpenSans.ttf');
+        }
 
-#home {
-  position:absolute;
-  top:0;
-  list-style: none;
-  font-family: logo;
-  font-size: 16px;
-}
+        @font-face {
+            font-family: marker;
+            src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
+        }
 
-#home:hover {
-  cursor: pointer;
-  font-family: marker;
-  text-decoration: none;
-}
+        @font-face {
+            font-family: logo;
+            src: url('https://lucymethod.github.io/font/SansationBold.ttf');
+        }
 
-a,
-a:hover {
-  line-height: 25px;
-  text-decoration: none;
-  color: black;
-}
+        body {
+            background: white;
+        }
 
-.feedback-input {
-  font-family: sans, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border: 2px solid rgb(129, 183, 109);
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 0;
-}
+        form {
+            max-width: 420px;
+            margin: auto;
+        }
 
-.feedback-input:focus {
-  border: 2px solid black;
-}
+        h1 {
+            padding-top: 40px;
+            font-family: sans;
+            color: rgb(129, 183, 109);
+            text-align: center;
+            margin: auto;
+            width: auto;
+        }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
+        #home {
+            position: absolute;
+            top: 0;
+            list-style: none;
+            font-family: logo;
+            font-size: 16px;
+        }
 
-[type="submit"] {
-  font-family: sans, Arial, Helvetica, sans-serif;
-  width: 100%;
-  background: rgb(129, 183, 109);
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
-}
+        #home:hover {
+            cursor: pointer;
+            font-family: marker;
+            text-decoration: none;
+        }
 
-[type="submit"]:hover {
-  background: rgb(109, 163, 89);
-}
+        a,
+        a:hover {
+            line-height: 25px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .feedback-input {
+            font-family: sans, Arial, sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            border-radius: 5px;
+            line-height: 22px;
+            background-color: transparent;
+            border: 2px solid rgb(129, 183, 109);
+            transition: all 0.3s;
+            padding: 13px;
+            margin-bottom: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            outline: 0;
+        }
+
+        .feedback-input:focus {
+            border: 2px solid black;
+        }
+
+        textarea {
+            height: 150px;
+            line-height: 150%;
+            resize: vertical;
+        }
+
+        [type="submit"] {
+            font-family: sans, Arial, Helvetica, sans-serif;
+            width: 100%;
+            background: rgb(129, 183, 109);
+            border-radius: 5px;
+            border: 0;
+            cursor: pointer;
+            color: white;
+            font-size: 24px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: all 0.3s;
+            margin-top: -4px;
+            font-weight: 700;
+        }
+
+        [type="submit"]:hover {
+            background: rgb(109, 163, 89);
+        }
     </style>
 
-    
-        <script src="js/prefixfree.min.js"></script>
 
-    
-  </head>
+    <script src="js/prefixfree.min.js"></script>
 
-  <body>
+
+</head>
+
+<body>
 
     <div>
-  <li id="home">
-    <a href="https://lucymethod.github.io/">Home</a>
-  </li>
-</div>
-<h1>CONTACT ME</h1>
-<form action="https://formspree.io/cmccabe4363@gmail.com" method="POST">
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-  <input type="submit" value="SEND" />
-</form>
-    
-        <script src="js/index.js"></script>
+        <li id="home">
+            <a href="https://lucymethod.github.io/">Home</a>
+        </li>
+    </div>
+    <h1>CONTACT LUCY METHOD</h1>
+    <form action="https://formspree.io/cmccabe4363@gmail.com" method="POST">
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="age" type="text" class="feedback-input" placeholder="Age" />
+        <input name="gender" type="text" class="feedback-input" placeholder="Gender" />
+        <input name="place" type="text" class="feedback-input" placeholder="Place Of Residence" />
+        <textarea name="text" class="feedback-input" placeholder="Write To Lucy"></textarea>
+        <input type="submit" value="SEND" />
+    </form>
 
-    
-    
-    
-  </body>
+    <script src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>
