@@ -8,6 +8,7 @@ body {
 
 #menu {
     width: 768px;
+	margin: auto;
 }
 
 .page {
@@ -31,17 +32,24 @@ a:hover {
 }
 
 .social {
-	width: 20%;
+	position: relative;
+	width:290px;
+	height: auto;
 	margin:auto;
 }
 
-.facebook:hover, .instagram:hover {
-	position: relative;
+a.facebook:hover, a.instagram:hover {
     background-color: rgba(129, 183, 109, 0.36);
+	width:140px;
+	height: 25px;
+	position: relative;
 }
 .facebook, .instagram {
 	position: relative;
-	display: inline-flex;
+	width:140px;
+	height: 25px;
+	margin: auto;
+	display: inline-block;
     border: 1px solid rgba(0, 0, 0, .1);
     text-align: center;
 	font-family: "Montserrat";
