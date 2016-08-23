@@ -60,7 +60,7 @@ p {
   font-size:13px;
 }
 .font-larger {
-  font-size:16px;
+  font-size:20px;
 }
 
 @media screen and (max-width: 768px) {
