@@ -1,6 +1,5 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 body {
-    padding-top: 20px;
     background-color: white;
     color: white;
     background: url("https://lucymethod.github.io/images/LogoBack.jpg") no-repeat fixed top;
@@ -10,11 +9,10 @@ body {
 #menu {
     width: 100%;
     text-align: center;
-    top:5px;
 }
 .page {
-    display: inline-block;
-    width: 100%;
+	display: inline-block;
+    width: 140px;
 }
 a, a:hover {
     position: absolute;
@@ -67,12 +65,5 @@ a:hover {
     }
 }
 @media screen and (max-width: 768px) {
-    #menu {
-        margin: auto;
-        width: auto;
-    }
-    .page {
-        margin: auto;
-        display: block;
-    }
+
 }
