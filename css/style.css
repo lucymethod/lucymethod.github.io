@@ -9,21 +9,25 @@ body {
 #menu {
     width: 100%;
     text-align: center;
+	height: 40px;
 }
 .page {
 	display: inline-block;
     width: 140px;
+	line-height: 40px;
 }
 a, a:hover {
-    position: absolute;
     text-decoration: none;
     color: black;
+	line-height: 25px;
 }
 a:hover {
     cursor: pointer;
     font-family: Permanent Marker;
 }
+
 .container2 {
+	padding-top:20px;
     width: 100%;
     text-align: center;
 }
@@ -60,5 +64,8 @@ a:hover {
     }
 }
 @media screen and (max-width: 768px) {
-
+	.container2 {
+		position: absolute;
+		bottom: 20px;
+	}
 }
