@@ -1,3 +1,5 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+
 body {
     padding-top: 20px;
     background-color: white;
@@ -31,28 +33,51 @@ a:hover {
     font-family: Permanent Marker;
 }
 
-.social {
-	position: relative;
-	width:290px;
-	height: auto;
-	margin:auto;
+.container2 {
+  width: 100%;
+  text-align:center;
 }
 
-a.facebook:hover, a.instagram:hover {
-    background-color: rgba(129, 183, 109, 0.36);
-	width:140px;
-	height: 25px;
-	position: relative;
+.ic {
+  display: inline-block;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 10%;
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+  font-size: 24px;
+  cursor: pointer;
+
 }
-.facebook, .instagram {
-	position: relative;
-	width:140px;
-	height: 25px;
-	margin: auto;
-	display: inline-block;
-    border: 1px solid rgba(0, 0, 0, .1);
-    text-align: center;
-	font-family: "Montserrat";
+
+.anim-facebook{
+  &:hover {
+    -webkit-animation:  facebookAnim 0.4s normal forwards linear;
+   }
+}
+
+.anim-instagram{
+  &:hover {
+    -webkit-animation:  instagramAnim 0.4s normal forwards linear;
+   }
+}
+
+@-webkit-keyframes facebookAnim {
+  100%{
+    background: rgba(72, 96, 163, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+
+@-webkit-keyframes instagramAnim {
+  100%{
+    background: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
 
 
 @media screen and (max-width: 768px) {
