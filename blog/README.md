@@ -1,78 +1,88 @@
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Milestones
-
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
-
-### GOALS
-
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
+[![GitHub version](https://badge.fury.io/gh/msanand%2Fjekyllstarter.svg)](http://badge.fury.io/gh/msanand%2Fjekyllstarter) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 
-### Bugs
+### What is Jekyll Starter?
 
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/msanand/jekyllstarter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Features
+Jekyll Starter is a bootstrap project for quickly creating a blog site based on [Jekyll](http://jekyllrb.com/). The starter project provides a foundation based on [Lanyon](https://github.com/poole/lanyon), which is a flavor of [Poole](https://github.com/poole/poole).
 
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
+In addition to the clean, minimalistic styling borrowed from Lanyon, Jekyll Starter provides the following functionality out-of-the-box:
 
-### TODOS
+* Comments using [Disqus](https://disqus.com/)
+* [Google Analytics](http://www.google.co.in/analytics/) Integration with [superProxy](https://developers.google.com/analytics/solutions/google-analytics-super-proxy)
+  * Page view counter
+  * Website counter
+* Social sharing using [AddThis](http://www.addthis.com/)
+* Author following using [AddThis](http://www.addthis.com/)
+* Tag visualization per post
+* Archive organized by tags
+* Customizable profile picture in sidebar and about page
+* [Grunt](http://gruntjs.com/) based build with CSS merge and minification
 
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
+This is the base on which [anandmanisankar.com](http://anandmanisankar.com) is built.
 
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
+### Usage
 
-## Contributing
+##### Pre-requisites (Optional)
 
+You will need a Disqus account, AddThis account and Google Analytics Tracking ID, if you want to integrate your blog with these services. Ensure you have enabled share and follow tools in AddThis. To make use of the Google Analytics integration, ensure you set-up and configure the Google Analytics Super Proxy as described [here](https://developers.google.com/analytics/solutions/google-analytics-super-proxy). Also ensure that your super proxy returns 'ga:pageviews' and 'ga:pagePath'.
+(To tackle the CORS issue with super proxy, refer to my [StackOverflow response](http://stackoverflow.com/a/25758257/121241))
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+##### Option 1:
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+Use the [Jekyll Starter Yeoman generator](https://www.npmjs.org/package/generator-jekyllstarter) to scaffold your blog in a matter of seconds.
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+[![npm version](https://badge.fury.io/js/generator-jekyllstarter.svg)](http://badge.fury.io/js/generator-jekyllstarter)
 
 
-## License
+To install generator-jekyllstarter from npm, run:
 
-[MIT](http://opensource.org/licenses/MIT)
+```bash
+npm install -g generator-jekyllstarter
+```
+
+Now, initiate the generator:
+
+```bash
+yo jekyllstarter
+```
+
+Answer the questions asked by the generator, and you're blog is ready!
+
+You can also generate a new post:
+
+```bash
+yo jekyllstarter:newpost
+```
+
+##### Option 2:
+
+Fork the [Jekyll Starter github repository](https://github.com/msanand/jekyllstarter) and manually alter `_config.yml` based on your requirements.
+
+
+#### What is Yeoman?
+
+Trick question. It's not a thing. It's this guy:
+
+![](http://i.imgur.com/JHaAlBJ.png)
+
+Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+
+Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+
+```bash
+npm install -g yo
+```
+
+### Bugs / Feature Requests
+
+You can report issues or request new features [here](https://github.com/msanand/jekyllstarter/issues).
+
+### Contribution
+
+Feel free to send a pull request in the [Jekyll Starter repository on Github](https://github.com/msanand/jekyllstarter).
+
+### License
+
+MIT © [Anand Mani Sankar](http://anandmanisankar.com)
