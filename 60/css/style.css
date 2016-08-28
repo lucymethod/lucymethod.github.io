@@ -3,6 +3,10 @@
     src: url('https://lucymethod.github.io/font/OpenSans.ttf');
 }
 @font-face {
+    font-family: sansLight;
+    src: url('https://lucymethod.github.io/font/OpenSansLight.ttf');
+}
+@font-face {
     font-family: marker;
     src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
 }
@@ -47,7 +51,7 @@ a, a:hover {
     text-align: center;
 }
 #skinny {
-  font-weight: lighter;
+  font-family: sansLight;
 }
 p {
     font-size: 13px;
