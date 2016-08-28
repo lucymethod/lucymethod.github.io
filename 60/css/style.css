@@ -46,7 +46,7 @@ a, a:hover {
     color: black;
     text-align: center;
 }
-.skinny {
+#skinny {
   font-weight: lighter;
 }
 p {
