@@ -1,54 +1,120 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>BlogPage</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
-<div class="posts">
-  {% for post in paginator.posts %}
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
 
-  <ul class="tags">
-    {% for tag in post.tags %}
-      <li><a href="{{ site.baseurl }}tags.html#{{tag}}" class="tag">{{ tag }}</a></li>
-    {% endfor %}
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="menu">
+  <ul class="list-unstyled">
+    <li id="home">
+      <a href="https://lucymethod.github.io/">Home</a>
+    </li>
+
   </ul>
-
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <div>
-      <span class="post-date" style="float: left;">{{ post.date | date_to_string }}</span>
-      <span class="post-date" data-post-url="{{ post.url }}" style="float: right;"></span>
+</div>
+<div class="header">
+  <h1> Blog </h1>
+  <hr id="blogline">
+</div>
+<div id="posts">
+  <div class="post-container">
+    <div class="post-image">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
     </div>
-    <div style="clear: both;"></div>​
-
-    {{ post.excerpt }}
-
-    <br>
-
-    <a href="{{ post.url }}">
-        Continue reading...
-    </a>
+    <div class="post-info">
+      BY
+      <h2>AUTHOR</h2> ON AUG 17, 2016
+    </div>
+    <div class="post-title">
+      An Example Post Title Here
+    </div>
+    <div class="post-desc">
+      A Short Description
+    </div>
   </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  <div class="post-container">
+    <div class="post-image">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+    </div>
+    <div class="post-info">
+      BY
+      <h2>AUTHOR</h2> ON AUG 17, 2016
+    </div>
+    <div class="post-title">
+      An Example Post Title Here
+    </div>
+    <div class="post-desc">
+      A Short Description
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post-image">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+    </div>
+    <div class="post-info">
+      BY
+      <h2>AUTHOR</h2> ON AUG 17, 2016
+    </div>
+    <div class="post-title">
+      An Example Post Title Here
+    </div>
+    <div class="post-desc">
+      A Short Description
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post-image">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+    </div>
+    <div class="post-info">
+      BY
+      <h2>AUTHOR</h2> ON AUG 17, 2016
+    </div>
+    <div class="post-title">
+      An Example Post Title Here
+    </div>
+    <div class="post-desc">
+      A Short Description
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post-image">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+    </div>
+    <div class="post-info">
+      BY
+      <h2>AUTHOR</h2> ON AUG 17, 2016
+    </div>
+    <div class="post-title">
+      An Example Post Title Here
+    </div>
+    <div class="post-desc">
+      A Short Description
+    </div>
+  </div>
 </div>
+    
+    
+    
+    
+    
+  </body>
+</html>

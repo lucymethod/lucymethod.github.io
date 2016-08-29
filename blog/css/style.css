@@ -1,0 +1,88 @@
+@font-face {
+    font-family: marker;
+    src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
+}
+@font-face {
+    font-family: logo;
+    src: url('https://lucymethod.github.io/font/SansationBold.ttf');
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+
+
+body {
+  font-family:Open Sans;
+  text-align:center;
+  margin:0 auto;
+}
+#home {
+  position:fixed;
+  top:0;
+  padding-right:30px;
+  left:15px;
+  line-height:40px;
+  list-style:none;
+  font-family: logo;
+  font-size: 16px;
+}
+a:hover {
+    cursor: pointer;
+    font-family: marker;
+}
+a, a:hover {
+  display:block;
+    text-decoration: none;
+    color: black;
+}
+
+#blogline {
+  width: 36px;
+  margin-right:49%;
+  margin-top:-25px;
+}
+  
+
+#posts {
+  margin-top:40px;
+  display:inline-block;
+}  
+
+.post-container {
+  overflow:hidden;
+  display:inline-block;
+  width:300px;
+  height:250px;
+  border: 1px solid lightgray;
+  margin:10px;
+  border-radius:10px;
+}
+
+img {
+}
+.post-image {
+  margin:5px auto;
+  width:280px;
+  border-radius:3px;
+  height:140px;
+  overflow:hidden;
+}
+.post-info, .post-desc, .post-title {
+  display:block;
+  text-align:left;
+  margin-left:10px;
+}
+.post-info, h2 {
+  font-weight:400;
+  font-size:14px;
+}
+h2 {
+  display:inline;
+  color:green;
+}
+.post-title {
+  margin-top:6px;
+  font-weight:700;
+  font-size:20px;
+}
+.post-desc { 
+  margin-top:10px;
+}
