@@ -18,8 +18,9 @@
 body {
     color: white;
     background-color: white;
-    background: url("https://lucymethod.github.io/images/60Back.png") no-repeat fixed top;
-    background-size: contain;
+    background: url("https://lucymethod.github.io/images/601.png") no-repeat fixed top left,
+                url("https://lucymethod.github.io/images/602.png") no-repeat fixed top right;
+    background-size: auto;
 }
 #home {
     margin: 10px 0 10px 10px;
