@@ -20,7 +20,7 @@ body {
     background-color: white;
     background: url("https://lucymethod.github.io/images/601.png") no-repeat fixed top left,
                 url("https://lucymethod.github.io/images/602.png") no-repeat fixed top right;
-    background-size: auto;
+    background-size: contain;
 }
 #home {
     margin: 10px 0 10px 10px;
