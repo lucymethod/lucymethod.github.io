@@ -1,0 +1,169 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="posts">
+  {% for post in site.posts %}
+    <div class="post-container">
+      <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+    </div>
+    <div class="post-info">
+      BY
+      <h2>{{ post.author }}</h2> ON AUG 17, 2016
+    </div>
+  {% endfor %}
+  <!--
+    <div class="post-container">
+        <div class="post-image">
+            <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+        </div>
+        <div class="post-info">
+            BY
+            <h2>AUTHOR</h2> ON AUG 17, 2016
+        </div>
+        <div class="post-title">
+            An Example Post Title Here
+        </div>
+        <div class="post-desc">
+            A Short Description
+        </div>
+    </div>
+
+
+    {% for post in site.posts %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>
+    {% endfor %}
+
+<h2 class="archive-title">Archives: {{ page.title | date: '%B %Y' }}</h2>
+{% for post in page.posts %}
+<article>
+    <header class="entry-header">
+        <h2 class="entry-title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <time class="published" datetime="{{ post.date }}" pubdate="">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date_to_string }}</a>
+        </time>
+    </header>
+
+    <div class="entry-content">
+        {{ content }}
+    </div>
+</article>
+{% endfor %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BlogPage</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul class="list-unstyled">
+            <li id="home">
+                <a href="https://lucymethod.github.io/">Home</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="header">
+        <h1> Blog </h1>
+        <hr id="blogline">
+    </div>
+    <div id="posts">
+        <div class="post-container">
+            <div class="post-image">
+                <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+            </div>
+            <div class="post-info">
+                BY
+                <h2>AUTHOR</h2> ON AUG 17, 2016
+            </div>
+            <div class="post-title">
+                An Example Post Title Here
+            </div>
+            <div class="post-desc">
+                A Short Description
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-image">
+                <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+            </div>
+            <div class="post-info">
+                BY
+                <h2>AUTHOR</h2> ON AUG 17, 2016
+            </div>
+            <div class="post-title">
+                An Example Post Title Here
+            </div>
+            <div class="post-desc">
+                A Short Description
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-image">
+                <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+            </div>
+            <div class="post-info">
+                BY
+                <h2>AUTHOR</h2> ON AUG 17, 2016
+            </div>
+            <div class="post-title">
+                An Example Post Title Here
+            </div>
+            <div class="post-desc">
+                A Short Description
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-image">
+                <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+            </div>
+            <div class="post-info">
+                BY
+                <h2>AUTHOR</h2> ON AUG 17, 2016
+            </div>
+            <div class="post-title">
+                An Example Post Title Here
+            </div>
+            <div class="post-desc">
+                A Short Description
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-image">
+                <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+            </div>
+            <div class="post-info">
+                BY
+                <h2>AUTHOR</h2> ON AUG 17, 2016
+            </div>
+            <div class="post-title">
+                An Example Post Title Here
+            </div>
+            <div class="post-desc">
+                A Short Description
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
