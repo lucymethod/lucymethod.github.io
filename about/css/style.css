@@ -16,8 +16,7 @@ body {
     background-color: white;
     background: url("https://lucymethod.github.io/images/LM1.png") no-repeat fixed top left,
                 url("https://lucymethod.github.io/images/LM2.png") no-repeat fixed top right,
-                url("https://lucymethod.github.io/images/LM3.png") no-repeat fixed bottom right;
-    background-size: contain;
+    background-size: auto;
 }
 #home {
     position: absolute;
