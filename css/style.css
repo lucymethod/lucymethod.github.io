@@ -28,10 +28,11 @@ a:hover {
 .container2 {
     position: absolute;
     top: 5px;
+    right: 5px;
     text-align: center;
 }
 .ic {
-    display: block;
+    display: inline-block;
     margin-left: 10px;
     margin-bottom: 5px;
     color: black;

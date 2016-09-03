@@ -7,7 +7,7 @@ title: Blog
   {% for post in site.posts limit:5%}
   <a class="nostyle" href="{{ post.url | prepend: site.url }}">
     <div class="post-container" href="{{post.url}}">
-      <div class="post-image">
+      <div class="post-image" style="background:url("http://lucymethod.github.io/images/postimgs/{{post.image}}")">
           <img src="http://lucymethod.github.io/images/postimgs/{{post.image}}" style="width:300px;">
       </div>
 
