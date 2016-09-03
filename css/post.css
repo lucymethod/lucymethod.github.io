@@ -38,9 +38,11 @@ body {
 }
 
 #header {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
 	padding-bottom: 20px;
 	padding-top: 2rem;
-	background: black;
 	color: white;
 }
 
