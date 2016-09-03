@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="posts">
+  {% for post in site.posts limit:5%}
+  <a class="nostyle" href="{{ post.url | prepend: site.url }}">
+    <div class="post-container" href="{{post.url}}">
+      <div class="post-image">
+          <img src="https://hd.unsplash.com/photo-1466721591366-2d5fba72006d" style="width:300px;">
+      </div>
+
+      <div class="post-info">
+        BY
+        <h2>{{ post.author }}</h2> ON {{ post.date | date: "%B %e, %Y" }}
+      </div>
+
+      <div class="post-title">
+          {{ post.title }}
+      </div>
+
+      <div class="post-desc">
+          {{ post.description }}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
