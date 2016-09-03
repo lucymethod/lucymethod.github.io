@@ -6,10 +6,10 @@ layout: postdefault
         <a id="link" href="https://lucymethod.github.io/blog">Blog</a>
     </div>
     <div id="header">
-        <h2> BY {{ author }} ON {{ date | date: "%B %e, %Y" }} </h2>
-        <h1>{{title}}</h1>
+        <h2> BY {{ post.author }} ON {{ date | date: "%B %e, %Y" }} </h2>
+        <h1>{{post.title}}</h1>
         <hr>
-        <h3>{{description}}</h3>
+        <h3>{{post.description}}</h3>
     </div>
     <div id="maintext">
         <p>{{ content }}</p>
