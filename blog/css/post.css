@@ -1,0 +1,101 @@
+@font-face {
+	font-family: marker;
+	src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
+}
+
+@font-face {
+	font-family: logo;
+	src: url('https://lucymethod.github.io/font/SansationBold.ttf');
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+body {
+	font-family: Open Sans;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#menu {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#link {
+	width: 50px;
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 1rem;
+	font-family: logo;
+	font-size: 0.875rem;
+	text-decoration: none;
+	color: white;
+}
+
+#link:hover {
+	cursor: pointer;
+	font-family: marker;
+}
+
+#header {
+	padding-bottom: 20px;
+	padding-top: 2rem;
+	background: black;
+	color: white;
+}
+
+hr {
+	width: 10%;
+}
+
+h1 {
+	width: 70%;
+	margin: auto;
+	margin-top: 5px;
+	font-size: 1.75rem;
+}
+
+h2 {
+	padding-top: .0rem;
+	font-size: 0.875rem;
+}
+
+h3 {
+	margin-top: 5px;
+	font-size: 1.175rem;
+}
+
+h2,
+h3 {
+	font-weight: 300;
+	color: rgb(200, 200, 200);
+}
+
+#maintext {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	font-size: 1.175rem;
+}
+
+#maintext::first-letter {
+	font-size: 3.4em;
+	line-height: 0.7;
+	float: left;
+	margin: 0.1em 0.1em 0 0
+}
+#pageNav {
+	margin-top:40px;
+}
+#pageNav a {
+	font-weight:300;
+	color:black;
+	text-decoration:none;
+	padding:5px 10px;
+	border:1px solid gray;
+	border-radius:20px;
+}
+#pageNav a:hover {
+	background:rgba(0,0,0,.1);
+	transition:1s ease;
+}
