@@ -16,23 +16,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-#home {
-  position:absolute;
-  top:0;
-  left:5px;
-    list-style: none;
-    font-family: sans;
+a {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    font-family: logo;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
 }
 
-#home:hover {
+a:hover {
     cursor: pointer;
     font-family: marker;
-}
-
-a, a:hover {
-    line-height: 25px;
     text-decoration: none;
-    color: black;
 }
 
 h1 {
@@ -40,7 +38,7 @@ h1 {
     font-size: 30px;
 	color: rgb(129,183,109);
     margin: 0;
-    padding: 5px 5px 0 10px;
+    padding: 0px 5px 0 10px;
 }
 
 h3 {
