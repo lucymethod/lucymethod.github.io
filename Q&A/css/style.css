@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: logo;
+    src: url('https://lucymethod.github.io/font/SansationBold.ttf');
+}
+
+@font-face {
     font-family: marker;
     src: url('https://lucymethod.github.io/font/PermanentMarker.ttf');
 }
