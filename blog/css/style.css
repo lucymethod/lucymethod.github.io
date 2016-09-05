@@ -53,62 +53,86 @@ a.nostyle:hover {
 }
 
 #posts {
-    margin-top: 40px;
-    display: inline-block;
+  margin-top:40px;
+  display:inline-block;
 }
 
 .post-container {
-    overflow: hidden;
-    display: inline-block;
-    width: 300px;
-    height: 250px;
-    border: 1px solid lightgray;
-    margin: 10px;
-    border-radius: 10px;
+  position:relative;
+  display:inline-block;
+  vertical-align:top;
+  background:rgb(129, 183, 109);
+  padding:10px;
+  overflow:hidden;
+  width:40vw;
+  max-width:400px;
+  margin:10px;
 }
 
-.post-container:hover {
-    cursor: pointer;
+img {
+  height:250px;
+  background:black;
 }
-
-img {}
-
 .post-image {
-    margin: 5px auto;
-    width: 280px;
-    border-radius: 3px;
-    height: 140px;
-    overflow: hidden;
+  margin-right:20px;
+  width:calc(40vw - 20px);
+  max-width:380px;
+  overflow:hidden;
+  padding:0px;
 }
-
-.post-info, .post-desc, .post-title {
-    display: block;
-    text-align: center;
+img:hover {
+  cursor:pointer;
 }
+#date {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  width:50px;
+  height:50px;
 
-.post-info, h2 {
-    font-weight: 400;
-	text-transform: uppercase;
-    font-size: 14px;
+  background:rgb(40,40,40);
+  color:white;
+  font-family:Open Sans;
+  font-weight:900;
+  text-transform:Uppercase;
+  padding:5px;
 }
-
-h2 {
-    display: inline;
-    color: rgb(129, 183, 109);
+.post-desc, .post-title {
+  text-align:left;
+  padding-right:50px;
 }
-
 .post-title {
-    margin-top: 5px;
-    font-weight: 700;
-    font-size: 20px;
-	line-height: 25px;
-	transition: all 1s ease;
+  margin-top:0;
+  font-weight:700;
+  font-size:3rem;
+  color:rgb(40,40,40);
 }
 .post-title:hover {
-	font-size: 22px;
-	transform: scale(1.05);
+  color:rgb(80,80,80);
+  transition:all .5s ease;
+  cursor:pointer;
 }
-
 .post-desc {
-    margin-top: 5px;
+  font-size:1.6rem;
+  margin-top:5px;
+  color:white;
+}
+.nav {
+  display:inline-block;
+  border:1px solid black;
+  padding:2px 6px;
+  border-radius:3px;
+
+  font-weight:800;
+}
+.nav:hover {
+  display:inline-block;
+  border:1px solid black;
+  padding:2px 6px;
+  border-radius:3px;
+  font-family:Open Sans;
+
+  background:rgb(40,40,40);
+  color:white;
+  transition:.5s ease;
 }
