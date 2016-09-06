@@ -37,6 +37,7 @@ body {
 }
 
 #header {
+	position: relative;
 	min-height: 35vh;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -55,23 +56,17 @@ hr {
 h1 {
 	width: 70%;
 	margin: auto;
-	margin-top: 5px;
-	font-size: 2.75rem;
+	font-size: 2.95rem;
 	font-weight: 800;
 }
 
 h2 {
+	position: absolute;
+	bottom: 0px;
+	left:0;
+	right: 0;
 	text-transform: uppercase;
 	font-size: 0.975rem;
-}
-
-h3 {
-	margin-top: 5px;
-	font-size: 1.175rem;
-}
-
-h2,
-h3 {
 	font-weight: 800;
 	color: rgb(67, 67, 67);
 }
