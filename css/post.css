@@ -24,12 +24,11 @@ body {
 #link {
 	width: 50px;
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 10px;
 	line-height: 1rem;
 	font-family: logo;
-	font-size: 0.875rem;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 #link:hover {
