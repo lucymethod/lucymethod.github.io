@@ -38,29 +38,32 @@ body {
 }
 
 #header {
+	min-height: 35vh;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position-x: 50%;
 	padding-bottom: 20px;
 	padding-top: 2rem;
-	color: white;
 }
 
 hr {
-	width: 10%;
+	width: 20%;
+	border-color: black;
+	border-width: 2px;
+	margin:7px auto;
 }
 
 h1 {
 	width: 70%;
 	margin: auto;
 	margin-top: 5px;
-	font-size: 1.75rem;
+	font-size: 2.75rem;
+	font-weight: 800;
 }
 
 h2 {
 	text-transform: uppercase;
-	padding-top: .0rem;
-	font-size: 0.875rem;
+	font-size: 0.975rem;
 }
 
 h3 {
@@ -70,8 +73,8 @@ h3 {
 
 h2,
 h3 {
-	font-weight: 300;
-	color: rgb(200, 200, 200);
+	font-weight: 800;
+	color: rgb(67, 67, 67);
 }
 
 #maintext {
