@@ -12,7 +12,7 @@
 }
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
 body {
-	background: url("https://lucymethod.github.io/images/LM1.png") no-repeat fixed top left, url("https://lucymethod.github.io/images/LM2.png") no-repeat fixed top right;
+	background: url("https://lucymethod.github.io/images/LMORIG.png") no-repeat fixed top;
 	background-size: contain;
 }
 a,
@@ -50,9 +50,6 @@ p {
 	font-size: 22px;
 }
 @media screen and (max-width: 768px) {
-	body {
-		background: url("https://lucymethod.github.io/images/LMORIG.png") no-repeat fixed top center;
-	}
 	#about {
 		width: 90%;
 		margin: auto;
