@@ -80,6 +80,6 @@ a:hover {
 	body {
 		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed;
 		background-position: 50% 20%;
-		background-size: contain;
+		background-size: 100% auto;
 	}
 }
