@@ -78,7 +78,8 @@ a:hover {
 		display: inline-block;
 	}
 	body {
-		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed top;
+		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed;
+		background-position: 50% 20%;
 		background-size: contain;
 	}
 }
