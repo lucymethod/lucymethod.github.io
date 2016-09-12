@@ -12,7 +12,8 @@
 }
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
 body {
-	background: url("https://lucymethod.github.io/images/LM1.jpg") no-repeat fixed top left, url("https://lucymethod.github.io/images/LM2.png") no-repeat fixed top right;
+	background: url("https://lucymethod.github.io/images/LM1.png") no-repeat fixed top left, url("https://lucymethod.github.io/images/LM2.png") no-repeat fixed top right;
+	background-size: contain;
 }
 a,
 #homebutton {
