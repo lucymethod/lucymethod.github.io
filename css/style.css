@@ -1,83 +1,84 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 body {
-    background-color: white;
-    color: white;
-    background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed top;
-    background-size: contain;
-    font-family: 'Montserrat';
+	background-color: white;
+	color: white;
+	background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed top;
+	background-size: contain;
+	font-family: 'Montserrat';
 }
 #menu {
-    width: 100%;
-    text-align: center;
-    height: 40px;
+	width: 100%;
+	text-align: center;
+	height: 40px;
 }
 .page {
-    display: inline-block;
-    width: 140px;
-    line-height: 40px;
+	display: inline-block;
+	width: 140px;
+	line-height: 40px;
 }
-a, a:hover {
-    text-decoration: none;
-    color: black;
-    line-height: 25px;
+a,
+a:hover {
+	text-decoration: none;
+	color: black;
+	line-height: 25px;
 }
 a:hover {
-    cursor: pointer;
-    font-family: Permanent Marker;
+	cursor: pointer;
+	font-family: Permanent Marker;
 }
 .container2 {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    text-align: center;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	text-align: center;
 }
 .ic {
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10%;
-    padding: 8.5px;
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
-    cursor: pointer;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 8.5px;
+	width: 35px;
+	height: 35px;
+	font-size: 18px;
+	cursor: pointer;
 }
 .anim-facebook:hover {
-    -webkit-animation: facebookAnim 0.4s normal forwards linear;
+	-webkit-animation: facebookAnim 0.4s normal forwards linear;
 }
 .anim-instagram:hover {
-    -webkit-animation: instagramAnim 0.4s normal forwards linear;
+	-webkit-animation: instagramAnim 0.4s normal forwards linear;
 }
 @-webkit-keyframes facebookAnim {
-    100% {
-        background: rgba(72, 96, 163, 0.5);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        color: white;
-    }
+	100% {
+		background: rgba(72, 96, 163, 0.5);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: white;
+	}
 }
 @-webkit-keyframes instagramAnim {
-    100% {
-        background: #73af5c;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        color: white;
-    }
+	100% {
+		background: #73af5c;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: white;
+	}
 }
 @media screen and (max-width: 768px) {
-    .page {
-        width: 100px;
-    }
-    .container2 {
-        position: absolute;
-        bottom: 20px;
-        top: auto;
-    }
-    .ic {
-        display: inline-block;
-    }
-    body {
-        background: url("https://lucymethod.github.io/images/LogoBack.png") no-repeat fixed top;
-        background-size: contain;
-    }
+	.page {
+		width: 100px;
+	}
+	.container2 {
+		position: absolute;
+		bottom: 20px;
+		top: auto;
+	}
+	.ic {
+		display: inline-block;
+	}
+	body {
+		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed top;
+		background-size: contain;
+	}
 }
