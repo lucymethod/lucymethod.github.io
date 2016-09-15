@@ -4,6 +4,7 @@ published: true
 title: Sample Prose Post
 description: A basic prose post
 author: Collin McCabe
+image: test.jpg
 ---
 ## A Basic Prose post to test MD logic
 
