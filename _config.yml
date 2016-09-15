@@ -89,7 +89,6 @@ prose:
     - /_layouts
   metadata:
     _posts:
-      meetups:
         - name: "meetup"
           field:
             element: "hidden"
