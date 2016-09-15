@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Sample Prose Post
 description: A basic prose post
 image: none
