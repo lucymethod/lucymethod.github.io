@@ -1,36 +1,28 @@
----
-title: Blog
-layout: default
----
+--- title: Blog layout: default ---
 
-  <div id="posts">
-    {% for post in site.posts limit:5%}
-    <a class="nostyle" href="{{ post.url | prepend: site.url }}">
-  <div class="post-container">
-     <div id="date">
-        <div id="mth">
-          {% assign m = post.date | date: "%B" %}
-          {% case m %}
-          {% when 'May' or June' or 'July' %}{{ m }}
-          {% when 'September' %}Sept.
-          {% else %}{{ post.date | date: "%b" }}.
-          {% endcase %}
-        </div>
-        <div id="day">{{ post.date | date: "%-d" }}</div>
-      </div>
+<div id="posts">
+	{% for post in site.posts limit:5%}
+	<a class="nostyle" href="{{ post.url | prepend: site.url }}">
+		<div class="post-container">
+			<div id="date">
+				<div id="mth">
+					{% assign m = post.date | date: "%B" %} {% case m %} {% when 'May' or June' or 'July' %}{{ m }} {% when 'September' %}Sept. {% else %}{{ post.date | date: "%b" }}. {% endcase %}
+				</div>
+				<div id="day">{{ post.date | date: "%-d" }}</div>
+			</div>
 
-      <div class="col-xs-6 post-image">
-          <img src="http://lucymethod.github.io/images/postimgs/{{post.image}}">
-      </div>
-    <div class="post-title">
-      {{ post.title }}
-    </div>
-    <div class="post-desc">
-      {{ post.description }}
-    </div>
-  </div>
-  </a>
-  {% endfor %}
+			<div class="col-xs-6 post-image">
+				<img src="http://lucymethod.github.io/postimgs/{{post.image}}">
+			</div>
+			<div class="post-title">
+				{{ post.title }}
+			</div>
+			<div class="post-desc">
+				{{ post.description }}
+			</div>
+		</div>
+	</a>
+	{% endfor %}
 </div>
 
 
