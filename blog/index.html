@@ -1,4 +1,6 @@
---- title: Blog layout: default ---
+--- 
+title: Blog layout: default 
+---
 
 <div id="posts">
 	{% for post in site.posts limit:5%}
@@ -24,31 +26,3 @@
 	</a>
 	{% endfor %}
 </div>
-
-
-<!--
-<div id="posts">
-  {% for post in site.posts limit:5%}
-  <a class="nostyle" href="{{ post.url | prepend: site.url }}">
-    <div class="post-container" href="{{post.url}}">
-      <div class="col-xs-6 post-image" style="background:url("http://lucymethod.github.io/images/postimgs/{{post.image}}")">
-          <img src="http://lucymethod.github.io/images/postimgs/{{post.image}}">
-      </div>
-
-      <div class="post-info">
-        BY
-        <h2>{{ post.author }}</h2> ON {{ post.date | date: "%B %e, %Y" }}
-      </div>
-
-      <div class="post-title">
-          {{ post.title }}
-      </div>
-
-      <div class="post-desc">
-           {{ post.description }}
-      </div>
-    </div>
-  </a>
-  {% endfor %}
-</div>
--->
