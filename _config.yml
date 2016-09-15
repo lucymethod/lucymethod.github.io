@@ -84,7 +84,6 @@ exclude:
   - CNAME
   
 prose:
-  media: 'images/postimgs'
   ignore:
     - /_layouts
   metadata:
