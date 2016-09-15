@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %} {{ page.title }} {% endif %}</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,200,100,400,700" rel="stylesheet">
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="css/post.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% if page.title %} {{ page.title }} {% endif %}</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,200,100,400,700" rel="stylesheet">
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="css/post.css">
 </head>
 
 <body>
-  <div id="menu">
-      <a id="link" href="https://lucymethod.github.io/">Home</a>
-      <a id="link" href="https://lucymethod.github.io/blog">Blog</a>
-  </div>
-  <div id="headermask">
-  <div id="header" style = "background-image:url(http://lucymethod.github.io/images/postimgs/{{page.image}});" >
-      <h2> BY {{ page.author }} ON {{ page.date | date: "%B %e, %Y" }} </h2>
-  </div>
-  </div>
-  <h1>{{page.title}}</h1>
-  <div id="maintext">
-      <p>{{ content }}</p>
-  </div>
-  <div id="pageNav">
-      <a class="prev" href="{{page.previous.url}}">PREV</a>
-      <a class="next" href="{{page.next.url}}">NEXT</a>
-  </div>
+	<div id="menu">
+		<a id="link" href="https://lucymethod.github.io/">Home</a>
+		<a id="link" href="https://lucymethod.github.io/blog">Blog</a>
+	</div>
+	<div id="headermask">
+		<div id="header" style="background-image:url(http://lucymethod.github.io/images/postimgs/{{page.image}});">
+			<h21> BY {{ page.author }} ON {{ page.date | date: "%B %e, %Y" }} </h21>
+		</div>
+	</div>
+	<h1>{{page.title}}</h1>
+	<div id="maintext">
+		<p>{{ content }}</p>
+	</div>
+	<div id="pageNav">
+		<a class="prev" href="{{page.previous.url}}">PREV</a>
+		<a class="next" href="{{page.next.url}}">NEXT</a>
+	</div>
 </body>
+
 </html>
