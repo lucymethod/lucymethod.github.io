@@ -81,7 +81,7 @@ screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
 	}
 	body {
 		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed;
-		background-position: 50vw 40vh;
+		background-position: 50% 20vh;
 		background-size: 100% auto;
 	}
 }
