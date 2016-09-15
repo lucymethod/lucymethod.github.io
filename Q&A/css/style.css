@@ -124,7 +124,7 @@ div.answer p {
 	text-decoration: none;
 }
 #lang-wrapper {
-  position:absolute;
+  position:fixed;
   text-transform:uppercase;
   bottom:10px;
   right:10px;
