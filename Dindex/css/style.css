@@ -1,0 +1,140 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+body {
+	background-color: white;
+	color: white;
+	background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed top;
+	background-size: contain;
+	font-family: 'Montserrat';
+}
+#menu {
+	width: 100%;
+	text-align: center;
+	height: 40px;
+}
+.page {
+	display: inline-block;
+	width: 140px;
+	line-height: 40px;
+}
+a,
+a:hover {
+	text-decoration: none;
+	color: black;
+	line-height: 25px;
+}
+a:hover {
+	cursor: pointer;
+	font-family: Permanent Marker;
+}
+.container2 {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	text-align: center;
+}
+.ic {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 8.5px;
+	width: 35px;
+	height: 35px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.anim-facebook:hover {
+	-webkit-animation: facebookAnim 0.4s normal forwards linear;
+}
+.anim-instagram:hover {
+	-webkit-animation: instagramAnim 0.4s normal forwards linear;
+}
+@-webkit-keyframes facebookAnim {
+	100% {
+		background: rgba(72, 96, 163, 0.5);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: white;
+	}
+}
+@-webkit-keyframes instagramAnim {
+	100% {
+		background: #73af5c;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: white;
+	}
+}
+
+#lang-wrapper {
+  position:absolute;
+  text-transform:uppercase;
+  bottom:10px;
+  right:10px;
+  text-align:center;
+}
+h10 {
+  font-size:14px;
+  width:100px;
+}
+#lang{
+  width:60px;
+}
+#blue {
+  position:absolute;
+  width:30px;
+  height:22px;
+  background:lightgrey;
+}
+#red, #white {
+  width:60px;
+  height:3px;
+}
+#red {
+  background:grey;
+}
+#white {
+  background:white;
+}
+
+#lang:hover {
+  cursor:pointer;
+}
+
+#lang:hover #red {
+  transition:1s ease;
+  background:red;
+}
+
+#lang:hover #white {
+  transition:1s ease;
+  background:white;
+}
+
+#lang:hover #blue {
+  transition:1s ease;
+  background:blue;
+}
+
+
+
+@media all and (max-width:360px),
+screen and (-webkit-min-device-pixel-ratio: 3.0) and (max-width: 1080px),
+screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
+	.page {
+		width: 100px;
+	}
+	.container2 {
+		position: absolute;
+		bottom: 20px;
+		top: auto;
+	}
+	.ic {
+		display: inline-block;
+	}
+	body {
+		background: url("https://lucymethod.github.io/images/FinalBack.jpg") no-repeat fixed;
+		background-position: 50% 20vh;
+		background-size: 100% auto;
+	}
+}
