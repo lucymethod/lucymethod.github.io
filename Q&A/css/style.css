@@ -123,3 +123,50 @@ div.answer p {
 	position: fixed;
 	text-decoration: none;
 }
+#lang-wrapper {
+  position:absolute;
+  text-transform:uppercase;
+  bottom:10px;
+  right:10px;
+  text-align:center;
+}
+h10 {
+  font-size:10px;
+  width:100px;
+}
+#lang{
+  width:70px;
+}
+
+#red, #white, #blue {
+  width:70px;
+  height:11px;
+}
+#red {
+  background:grey;
+}
+#white {
+  background:white;
+}
+#blue {
+  background:lightgrey;
+}
+
+#lang:hover {
+  cursor:pointer;
+}
+
+#lang:hover #red {
+  transition:1s ease;
+  background:red;
+}
+
+#lang:hover #white {
+  transition:1s ease;
+  background:white;
+}
+
+#lang:hover #blue {
+  transition:1s ease;
+  background:blue;
+}
