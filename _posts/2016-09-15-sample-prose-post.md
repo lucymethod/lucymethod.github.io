@@ -7,4 +7,4 @@ image: none
 ---
 ## A Basic Prose post to test MD logic
 
-This a real post, head back to the main blog page
+This isn't a real post, head back to the main blog page
