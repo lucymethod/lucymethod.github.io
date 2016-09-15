@@ -53,6 +53,11 @@ prose:
   - "/index.html"
   - "contact"
   - "/about"
+  - "/css"
+  - "/images"
+  - "/font"
+  - "/.gitignore"
+  - "/Q&A"
   metadata:
     _posts:
     - name: meetup
