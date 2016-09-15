@@ -21,7 +21,7 @@ body {
                 url("https://lucymethod.github.io/images/602.png") no-repeat fixed top right;
     background-size: contain;
 }
-a {
+.homebutton {
     position: absolute;
     top: 5px;
     left: 5px;
@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.homebutton:hover {
     cursor: pointer;
     font-family: marker;
     text-decoration: none;
