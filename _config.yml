@@ -48,6 +48,11 @@ exclude:
 prose:
   ignore:
   - "/_layouts"
+  - "/blog"
+  - "/60"
+  - "/index.html"
+  - "contact"
+  - "/about"
   metadata:
     _posts:
     - name: meetup
