@@ -68,6 +68,10 @@ prose:
       field:
         element: text
         label: Title
+    - name: author
+      field:
+        element: text
+        label: Author
     - name: description
       field:
         element: text
@@ -76,3 +80,4 @@ prose:
       field:
         element: text
         label: Image Name
+        value: test.jpg
