@@ -66,6 +66,10 @@ a:hover {
 	}
 }
 
+.nostyle {
+	line-height: normal;
+}
+
 #lang-wrapper {
   position:absolute;
   text-transform:uppercase;
@@ -74,27 +78,25 @@ a:hover {
   text-align:center;
 }
 h10 {
-  font-size:14px;
+  font-size:10px;
   width:100px;
 }
 #lang{
-  width:60px;
+  width:70px;
 }
-#blue {
-  position:absolute;
-  width:30px;
-  height:22px;
-  background:lightgrey;
-}
-#red, #white {
-  width:60px;
-  height:3px;
+
+#red, #white, #blue {
+  width:70px;
+  height:11px;
 }
 #red {
   background:grey;
 }
 #white {
   background:white;
+}
+#blue {
+  background:lightgrey;
 }
 
 #lang:hover {
@@ -115,7 +117,6 @@ h10 {
   transition:1s ease;
   background:blue;
 }
-
 
 
 @media all and (max-width:360px),
