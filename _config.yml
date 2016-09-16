@@ -46,8 +46,6 @@ exclude:
 - README.md
 - CNAME
 prose:
-  siteurl: "http://lucymethod.github.io"
-  media: "/siteimgs"
   ignore:
   - "/_layouts"
   - "/blog"
@@ -65,6 +63,8 @@ prose:
   - "/DQ&A"
   - "/D60"
   - "/Dcontact"
+  siteurl: "http://lucymethod.github.io"
+  media: "/siteimgs"
   metadata:
     _posts:
     - name: "published"
