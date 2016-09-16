@@ -65,101 +65,109 @@ a:hover {
 		color: white;
 	}
 }
+
 #lang-wrapper {
-	overflow: hidden;
-	position: absolute;
-	text-transform: uppercase;
-	bottom: 10px;
-	right: 10px;
-	text-align: center;
+  overflow:hidden;
+  position:absolute;
+  text-transform:uppercase;
+  bottom:10px;
+  right:10px;
+  text-align:center;
 }
 h10 {
-	font-size: 14px;
-	width: 100px;
+  font-size:14px;
+  width:100px;
 }
-#lang {
-	overflow: hidden;
-	height: 30px;
-	width: 60px;
+#lang{
+  overflow:hidden;
+  height:30px;
+  width:60px;
 }
 #blue {
-	position: absolute;
-	width: 60px;
-	height: 30px;
-	background: lightgrey;
+  position:absolute;
+  width:60px;
+  height:30px;
+  background:lightgrey;
 }
+
 #wup {
-	position: absolute;
-	left: 25px;
-	width: 10px;
-	height: 30px;
-	background: white;
+  position:absolute;
+  left:25px;
+  width:10px;
+  height:30px;
+  background:white;
 }
 #wcross {
-	position: absolute;
-	top: 10px;
-	width: 60px;
-	height: 10px;
-	background: white;
+  position:absolute;
+  top:10px;
+  width:60px;
+  height:10px;
+  background:white;
 }
 #wupfor {
-	position: absolute;
-	top: 15px;
-	left: -10px;
-	width: 90px;
-	height: 4px;
-	background: white;
-	transform: rotate(25deg);
+  position:absolute;
+  top:15px;
+  left:-10px;
+  width:90px;
+  height:4px;
+  background:white;
+  transform: rotate(25deg);
 }
 #wupback {
-	position: absolute;
-	top: 11px;
-	left: -10px;
-	width: 90px;
-	height: 4px;
-	background: white;
-	transform: rotate(-25deg);
+  position:absolute;
+  top:11px;
+  left:-10px;
+  width:90px;
+  height:4px;
+  background:white;
+  transform: rotate(-25deg);
 }
+
 #rupfor {
-	position: absolute;
-	top: 16px;
-	left: -10px;
-	width: 90px;
-	height: 1px;
-	background: grey;
-	transform: rotate(25deg);
+  position:absolute;
+  top:16px;
+  left:-10px;
+  width:90px;
+  height:1px;
+  background:grey;
+  transform: rotate(25deg);
 }
 #rupback {
-	position: absolute;
-	top: 12px;
-	left: -10px;
-	width: 90px;
-	height: 1px;
-	background: grey;
-	transform: rotate(-25deg);
+  position:absolute;
+  top:12px;
+  left:-10px;
+  width:90px;
+  height:1px;
+  background:grey;
+  transform: rotate(-25deg);
 }
 #rup {
-	position: absolute;
-	left: 28px;
-	width: 4px;
-	height: 30px;
-	background: grey;
+  position:absolute;
+  left:28px;
+  width:4px;
+  height:30px;
+  background:grey;
 }
 #rcross {
-	position: absolute;
-	top: 13px;
-	width: 60px;
-	height: 4px;
-	background: grey;
+  position:absolute;
+  top:13px;
+  width:60px;
+  height:4px;
+  background:grey;
 }
+
 #lang:hover #blue {
-	transition: 1s ease;
-	background: blue;
+  transition:1s ease;
+  background:blue;
 }
+
 #lang:hover .red {
-	transition: 1s ease;
-	background: red;
+  transition:1s ease;
+  background:red;
 }
+
+
+
 @media all and (max-width:360px),
 screen and (-webkit-min-device-pixel-ratio: 3.0) and (max-width: 1080px),
 screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
@@ -170,7 +178,7 @@ screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
 		position: absolute;
 		bottom: 5px;
 		top: auto;
-		right: auto;
+		right:auto;
 		left: 5px;
 	}
 	.ic {
