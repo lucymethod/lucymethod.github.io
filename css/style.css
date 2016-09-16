@@ -123,8 +123,10 @@ screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
 	}
 	.container2 {
 		position: absolute;
-		bottom: 20px;
+		bottom: 5px;
 		top: auto;
+		right:auto;
+		left: 5px;
 	}
 	.ic {
 		display: inline-block;
