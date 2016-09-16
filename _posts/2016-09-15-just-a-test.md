@@ -1,7 +1,7 @@
 ---
 layout: post
 image: test.jpg
-published: false
+published: true
 title: Just A Test
 author: Collin McCabe
 description: A test for prose
