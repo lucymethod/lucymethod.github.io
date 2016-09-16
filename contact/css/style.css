@@ -11,7 +11,8 @@
 	src: url('https://lucymethod.github.io/font/SansationBold.ttf');
 }
 body {
-	background: white;
+	background: url(/images/contactBack.jpg) no-repeat fixed top;
+	background-size: contain;
 }
 form {
 	max-width: 420px;
@@ -59,7 +60,20 @@ a:hover {
 	outline: 0;
 }
 .feedback-input:focus {
+	transition: 1s ease;
 	border: 2px solid black;
+}
+::-webkit-input-placeholder {
+	color: rgb(90, 90, 90);
+}
+:-moz-placeholder {
+	color: rgb(90, 90, 90);
+}
+::-moz-placeholder {
+	color: rgb(90, 90, 90);
+}
+:-ms-input-placeholder {
+	color: rgb(90, 90, 90);
 }
 textarea {
 	height: 150px;
@@ -83,4 +97,48 @@ textarea {
 }
 [type="submit"]:hover {
 	background: rgb(109, 163, 89);
+}
+#lang-wrapper {
+	position: absolute;
+	text-transform: uppercase;
+	bottom: 10px;
+	right: 10px;
+	text-align: center;
+}
+h10 {
+	font-size: 10px;
+	width: 100px;
+}
+#lang {
+	width: 60px;
+}
+#red,
+#white,
+#blue {
+	width: 60px;
+	height: 11px;
+}
+#red {
+	background: grey;
+}
+#white {
+	background: white;
+}
+#blue {
+	background: lightgrey;
+}
+#lang:hover {
+	cursor: pointer;
+}
+#lang:hover #red {
+	transition: 1s ease;
+	background: red;
+}
+#lang:hover #white {
+	transition: 1s ease;
+	background: white;
+}
+#lang:hover #blue {
+	transition: 1s ease;
+	background: blue;
 }
