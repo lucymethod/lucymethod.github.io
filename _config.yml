@@ -49,9 +49,9 @@ prose:
   media: "http://lucymethod.github.io/postimgs"
   metadata:
     _posts:
-    - name: "published"
+    - name: published
         field:
-          element: 'hidden'
+          element: hidden
           value: true
     - name: layout
       field:
