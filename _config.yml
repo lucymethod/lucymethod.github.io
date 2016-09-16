@@ -58,7 +58,7 @@ prose:
   - "/font"
   - "/.gitignore"
   - "/Q&A"
-  siteurl: "http://lucymethod.github.io/blog"
+  siteurl: "http://lucymethod.github.io/"
   media: "http://lucymethod.github.io/postimgs"
   metadata:
     _posts:
