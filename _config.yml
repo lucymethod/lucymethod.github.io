@@ -63,8 +63,6 @@ prose:
   - "/DQ&A"
   - "/D60"
   - "/Dcontact"
-  siteurl: "http://lucymethod.github.io/"
-  media: "http://lucymethod.github.io/postimgs"
   metadata:
     _posts:
     - name: layout
