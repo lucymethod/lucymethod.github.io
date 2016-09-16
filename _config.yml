@@ -47,9 +47,7 @@ prose:
   - "/Dabout"
   - "/DQ&A"
   - "/D60"
-  - "/Dcontact"
-  siteurl: "http://lucymethod.github.io"
-  media: "/siteimgs"
+  - "/Dcontact" 
   metadata:
     _posts:
     - name: "published"
