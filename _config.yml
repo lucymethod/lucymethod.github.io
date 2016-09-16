@@ -11,21 +11,6 @@ collections:
 name: Collin
 description: Lucy Methopd Blog
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-footer-links:
-  dribbble: 
-  email: 
-  facebook: 
-  flickr: 
-  github: 
-  instagram: 
-  linkedin: 
-  pinterest: 
-  rss: 
-  twitter: 
-  stackoverflow: 
-  youtube: 
-  googleplus: 
-disqus: 
 google_analytics: 
 url: http://lucymethod.github.io
 baseurl: ''
@@ -70,7 +55,7 @@ prose:
     - name: "published"
         field:
           element: 'hidden'
-          value: true
+          value: true 
     - name: layout
       field:
         element: hidden
