@@ -77,8 +77,15 @@ h10 {
   font-size:10px;
   width:100px;
 }
+h1 {
+	font-size: 18px;
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	font-weight: 700;
+}
 #lang{
-  width:60px;
+	width:60px;
 }
 
 #red, #white, #blue {

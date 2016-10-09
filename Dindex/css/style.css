@@ -78,6 +78,13 @@ h10 {
   font-size:14px;
   width:100px;
 }
+h1 {
+	font-size: 18px;
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	font-weight: 700;
+}
 #lang{
   overflow:hidden;
   height:30px;
