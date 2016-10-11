@@ -84,6 +84,10 @@ h1 {
 	right:10px;
 	font-weight: 700;
 }
+h1:hover {
+	font-family: Montserrat;
+	opacity:.9;
+}
 #lang{
 	width:60px;
 }

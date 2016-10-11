@@ -65,6 +65,17 @@ a:hover {
 		color: white;
 	}
 }
+h1 {
+	font-size: 18px;
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	font-weight: 700;
+}
+h1:hover {
+	font-family: Montserrat;
+	opacity:.9;
+}
 
 #lang-wrapper {
   overflow:hidden;
@@ -77,13 +88,6 @@ a:hover {
 h10 {
   font-size:14px;
   width:100px;
-}
-h1 {
-	font-size: 18px;
-	position:absolute;
-	bottom:0px;
-	right:10px;
-	font-weight: 700;
 }
 #lang{
   overflow:hidden;
